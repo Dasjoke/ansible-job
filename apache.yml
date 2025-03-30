@@ -1,6 +1,6 @@
 ---
 - name: Install HTTP server
-  hosts: centos
+  hosts: webservers
   become: yes
 
   tasks:
