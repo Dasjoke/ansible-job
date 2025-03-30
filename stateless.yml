@@ -1,0 +1,11 @@
+---
+- name: Static Page
+  hosts: webservers
+  become: yes
+
+  tasks:
+  - name: Update static page
+    copy:
+      src: stateless
+      dest: /var/www/html/static.html
+...
