@@ -1,6 +1,6 @@
 ---
 - name: Deploy Web App
-  hosts: linux
+  hosts: ubuntu
   become: yes
 
   tasks:
