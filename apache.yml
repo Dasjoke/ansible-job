@@ -1,6 +1,6 @@
 ---
 - name: Install HTTP server
-  hosts: ubuntu
+  hosts: centos
   become: yes
 
   tasks:
