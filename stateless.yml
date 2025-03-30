@@ -7,5 +7,5 @@
   - name: Update static page
     copy:
       src: stateless
-      dest: /var/www/html/static.html
+      dest: /var/www/html/stateless.html
 ...
