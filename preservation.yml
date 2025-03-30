@@ -1,6 +1,6 @@
 ---
 - name: under maintenance
-  hosts: centos
+  hosts: ubuntu
   become: yes
 
   tasks:
