@@ -1,11 +1,11 @@
 ---
 - name: under maintenance
-  hosts: n2
+  hosts: centos
   become: yes
 
   tasks:
   - name: Update maintenance
     copy:
-      src: Maintenance.html
+      src: preservation.html
       dest: /var/www/html/index.html
 ...
