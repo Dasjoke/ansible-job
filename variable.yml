@@ -1,6 +1,6 @@
 ---
 - name: Variables Demo
-  hosts: g1
+  hosts: ubuntu
   become: yes
   vars:
     myusername: Ajoke
