@@ -4,8 +4,9 @@
   become: yes
 
   tasks:
-  - name: Update static page
-    copy:
-      src: stateless.html
-      dest: /var/www/html/static.html
-...
+    - name: Update static page
+      copy:
+        src: files/stateless.html
+        dest: /var/www/html/static.html
+
+
